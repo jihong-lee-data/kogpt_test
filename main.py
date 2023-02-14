@@ -57,8 +57,8 @@ def main():
     
     prompt = st.text_area('Prompt (입력 후 cmd/ctrl+Enter)', height = 200,\
                              placeholder = '''KoGPT에게 전달할 제시어인 프롬프트
-                                                한국어만 지원
-                                                구현 예제를 참고해 수행 과제에 적합한 내용으로 구성''')
+                             한국어만 지원
+                             구현 예제를 참고해 수행 과제에 적합한 내용으로 구성''')
 
     r = kogpt_api(
         prompt = prompt,
